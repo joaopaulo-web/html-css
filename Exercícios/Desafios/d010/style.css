@@ -133,8 +133,8 @@ img.android{
 aside{
     border-radius: 10px 10px 0px 0px;
     box-shadow: 3px 3px 8px rgba(128, 128, 128, 0.384);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 10px;
     text-align: justify;
     background-color: #83E1AD;
