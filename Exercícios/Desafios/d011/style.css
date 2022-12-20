@@ -1,0 +1,7 @@
+body{
+    background-image: url(imagens/espaco.jpg);
+}
+div{
+    display: flex;
+    justify-content: center;
+}

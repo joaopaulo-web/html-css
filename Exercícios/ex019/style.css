@@ -1,0 +1,22 @@
+body{
+    background-color: #83bda9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #0f7452 ;
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: #1d4639;
+}
+.basico{
+    color: black;
+}
+.medio{
+    color: aqua;
+}
+.avançado{
+    color: rgb(26, 63, 51);
+}

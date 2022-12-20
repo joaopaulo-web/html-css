@@ -1,0 +1,20 @@
+a{
+    color: white;
+}
+p{
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: rgb(46, 46, 46);
+}
+h2{
+   text-align: center;
+   color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+}
