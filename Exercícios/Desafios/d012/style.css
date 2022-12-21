@@ -34,10 +34,9 @@ p{
     font-family: 'Sriracha', cursive;;
 }
 
-div.parallax{
-    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.329);
+section.imagem{
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.247);
     padding: 20px 20px 20px 0px;
-    background-image: url(pacote-d012/imagens/background001.jpg);
     max-width: auto;
     min-width: 500px;
     background-attachment: fixed;
@@ -45,9 +44,17 @@ div.parallax{
     background-repeat: no-repeat;
     background-size: cover;
 }
-div > p{
+
+section#img01{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+}
+section#img02{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+}
+section > p{
     padding: 10px;
     color: white;
     width: 200px;
-    background-color: rgba(0, 0, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.473);
 }
