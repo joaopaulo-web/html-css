@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+html, body{
+    min-height: 100vh;
+}
 header{
     font-size: large;
     padding: 35px;
@@ -12,6 +15,7 @@ header{
     font-family: 'Passion One', cursive;
 }
 h1{
+    font-variant: small-caps;
     padding-top: 20px;
 }
 header > p{
@@ -19,7 +23,7 @@ header > p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
 }
-main p{
+main p{ 
     margin-left: 10px;
 }
 p{
