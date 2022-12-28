@@ -22,7 +22,7 @@ main{
 section#telefone{
     position: absolute;
     top: 50%;
-    left: 50%;;
+    left: 50%;
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
@@ -49,5 +49,5 @@ section#redes-sociais img{
 section#redes-sociais img:hover{
     transform: translate(-3px, -3px);
     border: 2px solid rgba(255, 255, 255, 0.591);
-    transition: transform .2s;
+    transition: transform .5s;
 }
