@@ -8,19 +8,20 @@
 </head>
 <body>
     <h1>Exemplo de Formuçário</h1>
-    <p>
-        <label for="iano">Em que ano você nasceu?</label>
-        <input type="number" name="ano" id="iano" min="1900" max="2022" oninput="isub.innerHTML = 2022 - Number(iano.value)">
-    </p>
-    <p>
-        <label for="iidade">Sua idade é:</label>
-        <output id="isub">0</output>
-    </p>
-    <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
-    </p>
-
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2022" oninput="isub.innerHTML = 2022 - Number(iano.value)">
+        </p>
+        <p>
+            <label for="iidade">Sua idade é:</label>
+            <output id="isub">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
+
 </body>
 </html>
