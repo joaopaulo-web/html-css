@@ -1,13 +1,11 @@
 @charset "UTF-8";
 
 *{
-    min-width: 400px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
-main{
-    height: 100%;
+body, html{
     background-color: lightgray;
 }
 header{
@@ -19,27 +17,28 @@ header{
 
 header > h1{
     text-align: center;
+    padding-bottom: 10px;
 }
-nav{
-    margin: 0px;
-    padding-top: 20px ;
+menu{
+    display: block;
 }
-nav > a{
-    text-decoration: none;
+menu > ul{
+    list-style-type: none;
+}
+menu > ul > li > a{  
+    display: block;
+    font-size: small;
+    text-align: center;
+    background-color: rgb(88, 88, 88);
+    border-top: .1px solid rgba(255, 255, 255, 0.39);
     padding: 10px;
-    margin: -5px 5p;
-    background-color: rgb(65, 64, 64);
+    text-decoration: none;
     color: white;
-} 
-
-nav > a:hover{
-    border: 1px solid white;
-    font-weight: bolder;
-    background-color: red;
-    color: black;
-    text-decoration: underline;
 }
 
+menu > ul > li > a:hover{
+    background-color: gray;
+}
 article{
     border-radius: 10px;
     padding: 10px;
