@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 768px){
-    span#burguer{
+@media screen and (min-width: 768px){ /* Quando o navegador atingir a largura de 768 OU MAIS*/
+    span#burguer{ /*O icone de hamburguer ira desaparecer */
         display: none;
     }
 
-    menu{
+    menu{ /* o menu ira aparecer na forma de bloco*/
         display: block;
     }
-    menu > ul >li {
+    menu > ul >li { /* os itens da lista dentro de menu, irão ficar ser representados como inline, ou seja, tudo em uma só linha.*/
         display: inline-block;
     }
-    article{
+    article{ /* O artigo, terá uma largura máxima de 768px*/
         width: 768px;
     }
 }
+/* !!!!!!!!!!!!!!  TUDO ISSO SÓ IRA ACONTECER, QUANDO O NAVEGADOR, PASSAR DE 768px !!!!!!!!!!!!!! */
