@@ -19,9 +19,13 @@
     main{
         border: 2px solid black;
     }
+
     main h1{
         text-shadow: none;
         color: black;
+    }
+    main::after{
+        content: 'Esse site foi feito por João Paulo Coimbra';
     }
     img#phone{display: none; }
     img#tablet{display: none; }
@@ -29,6 +33,7 @@
     img#pc{display: none; }
     img#tv{display: none; }
 }
+    
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
